@@ -3,13 +3,13 @@
 //Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
 struct TreeNode {
-    int val;            // The value stored in the node
-    TreeNode *left;     // Pointer to the left child node
-    TreeNode *right;    // Pointer to the right child node
+    int val;            
+    TreeNode *left;    
+    TreeNode *right;    
 
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}                      // Default constructor
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}                 // Constructor with value
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}  // Constructor with value & children
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}                      
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}                 
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}  
 };
 
 class Solution {
