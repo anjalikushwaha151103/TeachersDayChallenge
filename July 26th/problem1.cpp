@@ -1,9 +1,14 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-
 //GROUP ANAGRAMS
 //Statement - Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <algorithm>
+
+using namespace std;
+
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
