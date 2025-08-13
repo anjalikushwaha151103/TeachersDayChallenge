@@ -1,3 +1,6 @@
+// Park Lighting (Problem 1358A)
+// Statement: Given dimensions of a park as an n by m grid, determine the minimum number of yellow lamps needed to light up the park if each lamp lights up two adjacent squares.
+
 # include <iostream>
 using namespace std;
 

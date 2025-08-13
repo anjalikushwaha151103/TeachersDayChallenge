@@ -1,3 +1,6 @@
+// Young Physicist (Problem 69A)
+// Statement: Given the forces acting on a body in 3D space as vectors, determine if the body is in equilibrium by checking if the sum of all force components (x, y, z) is zero.
+
 #include <iostream>
 using namespace std;
 
