@@ -19,5 +19,6 @@ int main(){
             res=b-(a%b);
         }
         cout<<res<<endl;
+        
     }
 }
